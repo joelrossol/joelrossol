@@ -6,13 +6,15 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Dosis|Open+Sans");
 html {
   line-height: 1.15;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+  font-family: 'Dosis', sans-serif; }
 
 /* Sections
    ========================================================================== */
@@ -389,12 +391,60 @@ template {
 [hidden] {
   display: none; }
 
-.test {
-  font-size: 12px; }
+.banner-container {
+  background-image: url(../images/homepage-header1.jpg);
+  background-size: cover;
+  height: 300px; }
+
+.banner {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: center; }
+  .banner .title {
+    color: #fff;
+    margin: 0 auto .4rem auto;
+    font-size: 3rem;
+    text-transform: uppercase; }
+  .banner .subtitle {
+    color: #fff;
+    margin: 0 auto; }
+
+.sidebar-nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+
+.sidebar-nav li {
+  padding: 6px 0 6px 10px;
+  margin-bottom: 4px;
+  border-left: 3px solid transparent;
+  color: #fff; }
+
+.sidebar-nav li:hover {
+  border-left: 3px solid #006464;
+  background-color: grey; }
+
+.headshot {
+  border-radius: 50%;
+  width: 20%;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 section.sidebar {
-  width: 80px;
+  width: 60px;
   position: absolute;
   top: 0;
   bottom: 0;
-  background-color: grey; }
+  background-color: grey;
+  position: fixed;
+  background: #3c3c3c; }

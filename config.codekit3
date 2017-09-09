@@ -19,6 +19,19 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/sass\/banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/banner.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/sass\/main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -44,6 +57,49 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/css\/sass\/sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/images\/banner2.jpg": {
+		"ft": 16384,
+		"iS": 58991,
+		"oA": 0,
+		"oAP": "\/images\/banner2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/headshot.jpg": {
+		"ft": 16384,
+		"iS": 141709,
+		"oA": 0,
+		"oAP": "\/images\/headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/homepage-header1.jpg": {
+		"ft": 16384,
+		"iS": 175144,
+		"oA": 0,
+		"oAP": "\/images\/homepage-header1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
