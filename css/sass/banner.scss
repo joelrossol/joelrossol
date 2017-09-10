@@ -1,23 +1,30 @@
 .banner-container{
-  background-image: url(../images/homepage-header1.jpg);
+  background-image: url(../images/banner3.jpg);
   background-size: cover;
-  height: 300px;
+  height: 38vw;
 }
 .banner{
   position: relative;
   float: left;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -90%);
   text-align: center;
     .title{
       color: #fff;
-      margin: 0 auto .4rem auto;
-      font-size: 3rem;
+      margin: 0 auto .3rem auto;
+      font-size: 2.6rem;
+      font-weight: 700;
       text-transform: uppercase;
+    //   font-family: Dosis;
+    //   font-family: Ubuntu;
+      font-family: Raleway;
+      font-weight: 800;
     }
     .subtitle{
       color: #fff;
       margin: 0 auto;
+      font-weight: 300;
+      font-size: 1.2rem;
     }
 }

@@ -1,0 +1,1 @@
+$(function(){function e(){$(this).addClass("expanded")}function n(){$(this).removeClass("expanded")}$(".sidebar").hover(e,n)});

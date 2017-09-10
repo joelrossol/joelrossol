@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Dosis|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800,400|Dosis|Open+Sans|Teko|Ubuntu|Quicksand");
 html {
   line-height: 1.15;
   /* 1 */
@@ -14,7 +14,10 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  font-family: 'Dosis', sans-serif; }
+  font-family: 'Quicksand', sans-serif; }
+
+p {
+  line-height: 1.4rem; }
 
 /* Sections
    ========================================================================== */
@@ -392,40 +395,76 @@ template {
   display: none; }
 
 .banner-container {
-  background-image: url(../images/homepage-header1.jpg);
+  background-image: url(../images/banner3.jpg);
   background-size: cover;
-  height: 300px; }
+  height: 38vw; }
 
 .banner {
   position: relative;
   float: left;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -90%);
   text-align: center; }
   .banner .title {
     color: #fff;
-    margin: 0 auto .4rem auto;
-    font-size: 3rem;
-    text-transform: uppercase; }
+    margin: 0 auto .3rem auto;
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 800; }
   .banner .subtitle {
     color: #fff;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1.2rem; }
 
 .sidebar-nav ul {
   list-style: none;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  -webkit-transition: width .3s, height .3s, background-color .3s, -webkit-transform .3s;
+  transition: width .3s, height .3s, background-color .3s, transform .3s; }
 
 .sidebar-nav li {
-  padding: 6px 0 6px 10px;
-  margin-bottom: 4px;
+  padding: 16px 18px 18px 16px;
+  margin-bottom: 2px;
   border-left: 3px solid transparent;
-  color: #fff; }
+  color: #bbbbbb;
+  overflow-x: hidden;
+  white-space: nowrap;
+  -webkit-transition: width .3s, height .3s, background-color .3s, -webkit-transform .3s;
+  transition: width .3s, height .3s, background-color .3s, transform .3s; }
 
 .sidebar-nav li:hover {
   border-left: 3px solid #006464;
-  background-color: grey; }
+  background-color: black;
+  color: #acacac;
+  -webkit-transition: width .3s, height .3s, background-color .3s, -webkit-transform .3s;
+  transition: width .3s, height .3s, background-color .3s, transform .3s; }
+
+.sidebar-nav .navlabel {
+  display: none; }
+
+.expanded {
+  width: 160px;
+  -webkit-transition: width .3s, height .3s, background-color .3s, -webkit-transform .3s;
+  transition: width .3s, height .3s, background-color .3s, transform .3s;
+  transition-timing-function: ease-in-out; }
+  .expanded .navlabel {
+    display: inline-block;
+    -webkit-transition: width .3s, height .3s, background-color .3s, -webkit-transform .3s;
+    transition: width .3s, height .3s, background-color .3s, transform .3s;
+    transition-timing-function: ease-in-out; }
+  .expanded li span {
+    display: block; }
+
+body {
+  background-color: #f0f0f0; }
+
+li {
+  margin: 0 0 .8rem 0; }
 
 .headshot {
   border-radius: 50%;
@@ -435,16 +474,31 @@ template {
   -moz-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
   box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
   position: relative;
-  float: left;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  margin-bottom: -60px; }
 
-section.sidebar {
-  width: 60px;
+.sidebar {
   position: absolute;
   top: 0;
   bottom: 0;
   background-color: grey;
   position: fixed;
-  background: #3c3c3c; }
+  background: #3c3c3c;
+  display: none; }
+
+section {
+  padding: 3rem 6rem 0 6rem; }
+  section h2 {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Raleway; }
+
+.shortened {
+  padding-top: 0rem; }
+
+.secondary {
+  background-color: #ddebe9; }
