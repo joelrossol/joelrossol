@@ -1,30 +1,59 @@
-.banner-container{
-  background-image: url(../images/banner3.jpg);
-  background-size: cover;
-  height: 38vw;
-}
-.banner{
-  position: relative;
-  float: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -90%);
-  text-align: center;
-    .title{
-      color: #fff;
-      margin: 0 auto .3rem auto;
-      font-size: 2.6rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    //   font-family: Dosis;
-    //   font-family: Ubuntu;
-      font-family: Raleway;
-      font-weight: 800;
+.banner-container {
+    background-image: url("../images/banner3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 58vw;
+    max-height: 440px;
+
+    @include breakpoint(xs) {
+        height: 48vw;
     }
-    .subtitle{
-      color: #fff;
-      margin: 0 auto;
-      font-weight: 300;
-      font-size: 1.2rem;
+    @include breakpoint(sm) {
+        height: 38vw;
+    }
+    @include breakpoint(md) {
+        height: 38vw;
+    }
+}
+
+.banner {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    text-align: center;
+    .title {
+        color: #fff;
+        margin: 0 auto 0.3rem;
+        font-size: 2.2rem;
+        font-weight: 700;
+        //text-transform: uppercase;
+        font-family: Ubuntu;
+        @include breakpoint(xs) {
+            font-size: 2.8rem;
+        }
+        @include breakpoint(sm) {
+            font-size: 3.4rem;
+        }
+        @include breakpoint(md) {
+            font-size: 4rem;
+        }
+    }
+
+    .subtitle {
+        color: #fff;
+        margin: 0 auto;
+        font-weight: 300;
+        font-size: 1rem;
+        @include breakpoint(xs) {
+            font-size: 1.2rem;
+        }
+        @include breakpoint(sm) {
+            font-size: 1.4rem;
+        }
+        @include breakpoint(md) {
+            font-size: 1.8rem;
+        }
     }
 }

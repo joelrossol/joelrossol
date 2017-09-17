@@ -1,0 +1,38 @@
+.resume{
+    //background-color: rgb(139, 139, 139);
+}
+.job{
+    border-bottom: 1px dashed rgba(#5d686c, 0.78);
+    margin: 0 0 2rem 0;
+    padding: 0 0 2rem 0;
+
+}
+.employer{
+        font-family: Raleway;
+        font-weight: 800;
+        margin: 0 0 .5rem 0;
+        color: rgb(2, 108, 142);
+}
+.job-title{
+//color: rgb(51, 51, 51);
+font-family: $hfonts;
+font-weight: 500;
+font-size: 1.8rem;
+margin: 0 0 1rem 0;
+}
+.time-period{
+color: #fff;
+font-family: $hfonts;
+//font-weight: 300;
+font-size: 12px;
+background-color: $secondary-color;
+border-radius: 7px;
+padding: 3px 10px 4px 8px;
+margin: 0 0 6px 0;
+display: inline-block;
+float: right;
+}
+.tertiary{
+    color: #000000;
+    //text-shadow: 1px 1px 8px rgba(10,10,10, .5);
+}

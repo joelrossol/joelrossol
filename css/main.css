@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Raleway:800,400|Dosis|Open+Sans|Teko|Ubuntu|Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,800|Ubuntu:400,800|Quicksand");
 html {
   line-height: 1.15;
   /* 1 */
@@ -395,9 +395,20 @@ template {
   display: none; }
 
 .banner-container {
-  background-image: url(../images/banner3.jpg);
+  background-image: url("../images/banner3.jpg");
   background-size: cover;
-  height: 38vw; }
+  background-position: center;
+  height: 58vw;
+  max-height: 440px; }
+  @media (min-width: 480px) {
+    .banner-container {
+      height: 48vw; } }
+  @media (min-width: 768px) {
+    .banner-container {
+      height: 38vw; } }
+  @media (min-width: 992px) {
+    .banner-container {
+      height: 38vw; } }
 
 .banner {
   position: relative;
@@ -408,17 +419,33 @@ template {
   text-align: center; }
   .banner .title {
     color: #fff;
-    margin: 0 auto .3rem auto;
-    font-size: 2.6rem;
+    margin: 0 auto 0.3rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    text-transform: uppercase;
-    font-family: Raleway;
-    font-weight: 800; }
+    font-family: Ubuntu; }
+    @media (min-width: 480px) {
+      .banner .title {
+        font-size: 2.8rem; } }
+    @media (min-width: 768px) {
+      .banner .title {
+        font-size: 3.4rem; } }
+    @media (min-width: 992px) {
+      .banner .title {
+        font-size: 4rem; } }
   .banner .subtitle {
     color: #fff;
     margin: 0 auto;
     font-weight: 300;
-    font-size: 1.2rem; }
+    font-size: 1rem; }
+    @media (min-width: 480px) {
+      .banner .subtitle {
+        font-size: 1.2rem; } }
+    @media (min-width: 768px) {
+      .banner .subtitle {
+        font-size: 1.4rem; } }
+    @media (min-width: 992px) {
+      .banner .subtitle {
+        font-size: 1.8rem; } }
 
 .sidebar-nav ul {
   list-style: none;
@@ -460,24 +487,66 @@ template {
   .expanded li span {
     display: block; }
 
+.job {
+  border-bottom: 1px dashed rgba(93, 104, 108, 0.78);
+  margin: 0 0 2rem 0;
+  padding: 0 0 2rem 0; }
+
+.employer {
+  font-family: Raleway;
+  font-weight: 800;
+  margin: 0 0 .5rem 0;
+  color: #026c8e; }
+
+.job-title {
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0; }
+
+.time-period {
+  color: #fff;
+  font-family: Quicksand, sans-serif;
+  font-size: 12px;
+  background-color: #333;
+  border-radius: 7px;
+  padding: 3px 10px 4px 8px;
+  margin: 0 0 6px 0;
+  display: inline-block;
+  float: right; }
+
+.tertiary {
+  color: #000000; }
+
 body {
   background-color: #f0f0f0; }
 
 li {
-  margin: 0 0 .8rem 0; }
+  margin: 0 0 0.8rem; }
+
+a {
+  color: #026c8e; }
 
 .headshot {
   border-radius: 50%;
-  width: 20%;
+  width: 40%;
   border: 3px solid #fff;
-  -webkit-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
-  -moz-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
-  box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0 0 17px -1px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0 0 17px -1px rgba(0, 0, 0, 0.43);
+  box-shadow: 0 0 17px -1px rgba(0, 0, 0, 0.43);
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-bottom: -60px; }
+  margin-bottom: -14vw; }
+  @media (min-width: 480px) {
+    .headshot {
+      width: 30%;
+      margin-bottom: -12vw; } }
+  @media (min-width: 768px) {
+    .headshot {
+      width: 22%;
+      margin-bottom: -9vw; } }
 
 .sidebar {
   position: absolute;
@@ -489,16 +558,85 @@ li {
   display: none; }
 
 section {
-  padding: 3rem 6rem 0 6rem; }
+  padding: 2rem 1.5rem 2rem 1.5rem; }
+  @media (min-width: 480px) {
+    section {
+      padding: 2rem 2.5rem 2rem 2.5rem; } }
+  @media (min-width: 768px) {
+    section {
+      padding: 3rem 3.5rem 3rem 3.5rem; } }
+  @media (min-width: 992px) {
+    section {
+      padding: 4rem 8rem 4rem 8rem; } }
+  @media (min-width: 1200px) {
+    section {
+      padding: 4rem 12rem 4rem 12rem; } }
   section h2 {
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
-    font-family: Raleway; }
+    font-family: Quicksand, sans-serif; }
+    @media (min-width: 480px) {
+      section h2 {
+        font-size: 4vw;
+        margin: 0rem 0rem 1rem 0rem; } }
+    @media (min-width: 768px) {
+      section h2 {
+        font-size: 3.2vw;
+        margin: 0rem 0rem 2rem 0rem; } }
+  section p {
+    margin: 0 0 1.2rem 0;
+    max-width: 1000px; }
+    @media (min-width: 480px) {
+      section p {
+        font-size: 2.6vw;
+        line-height: 4vw; } }
+    @media (min-width: 768px) {
+      section p {
+        font-size: 16px;
+        line-height: 24px; } }
+    @media (min-width: 992px) {
+      section p {
+        font-size: 18px;
+        line-height: 26px; } }
 
 .shortened {
-  padding-top: 0rem; }
+  padding-top: 0; }
 
 .secondary {
-  background-color: #ddebe9; }
+  background-color: gainsboro; }
+
+.tertiary {
+  background-color: #cbcbcb; }
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  @media (min-width: 768px) {
+    .flexbox {
+      flex-direction: row; }
+      .flexbox .flex-item {
+        width: 50%; } }
+
+.icon-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center; }
+  @media (min-width: 480px) {
+    .icon-flexbox {
+      width: 100%; } }
+
+.icons li {
+  flex-grow: 1;
+  list-style: none;
+  text-align: center; }
+  .icons li span {
+    display: block;
+    margin-top: 0.5rem; }

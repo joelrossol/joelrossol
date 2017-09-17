@@ -32,6 +32,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/sass\/breakpoints.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/breakpoints.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/sass\/main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -54,6 +67,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/sass\/resume.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/resume.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -96,6 +122,16 @@
 		"iS": 141709,
 		"oA": 0,
 		"oAP": "\/images\/headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/headshot2.jpg": {
+		"ft": 16384,
+		"iS": 405357,
+		"oA": 0,
+		"oAP": "\/images\/headshot2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -149,7 +185,7 @@
 	"iconImageName": "meme-chloe"
 	},
 "projectSettings": {
-	"abortBuildOnError": 1,
+	"abortBuildOnError": 0,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
