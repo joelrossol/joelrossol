@@ -147,6 +147,46 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/portfolio\/img1.jpg": {
+		"ft": 16384,
+		"iS": 1676396,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/img1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/img2.jpg": {
+		"ft": 16384,
+		"iS": 913441,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/img2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/img3.jpg": {
+		"ft": 16384,
+		"iS": 719539,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/img3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/img4.jpg": {
+		"ft": 16384,
+		"iS": 2221717,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/img4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -172,6 +212,29 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/js\/photoswipe.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/photoswipe.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/photoswipe.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
