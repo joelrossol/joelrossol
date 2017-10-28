@@ -7,7 +7,7 @@ $secondary-color: #333;
 @import 'banner';
 @import 'sidebar';
 @import 'resume';
-@import 'photoswipe';
+//@import 'photoswipe';
 
 body {
     background-color: rgb(240,240,240);
@@ -34,6 +34,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: -14vw;
+    max-width: 280px;
     @include breakpoint(xs){
         width: 30%;
         margin-bottom: -12vw;
@@ -99,7 +100,7 @@ section {
 
     p {
         margin: 0 0 1.2rem 0;
-        max-width: 1000px;
+        //max-width: 900px;
         @include breakpoint(xs){
             font-size: 2.6vw;
             line-height: 4vw;
@@ -114,7 +115,10 @@ section {
         }
     }
 }
-
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
 .shortened {
     padding-top: 0;
 }

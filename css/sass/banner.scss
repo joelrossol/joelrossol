@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     height: 58vw;
-    max-height: 440px;
+    max-height: 400px;
 
     @include breakpoint(xs) {
         height: 48vw;
@@ -18,7 +18,7 @@
 
 .banner {
     position: relative;
-    float: left;
+    //float: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -90%);
