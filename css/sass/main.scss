@@ -1,16 +1,20 @@
-$hfonts: Quicksand, sans-serif;
-$primary-color: rgb(2, 108, 142);;
-$secondary-color: #333;
 @import 'normalize';
+@import 'variables';
 @import url( 'https://fonts.googleapis.com/css?family=Raleway:500,800|Ubuntu:400,800|Quicksand');
 @import 'breakpoints';
 @import 'banner';
 @import 'sidebar';
 @import 'resume';
+@import 'photos';
+@import 'lightbox';
 //@import 'photoswipe';
 
+.hidden{
+    display: none;
+}
 body {
     background-color: rgb(240,240,240);
+    //background-color: $background;
 }
 
 li {
@@ -44,6 +48,7 @@ a {
         width: 22%;
         margin-bottom: -9vw;
     }
+    //display: none;
 }
 
 .sidebar {
@@ -114,6 +119,9 @@ section {
             line-height: 26px;
         }
     }
+}
+.about{
+
 }
 .container{
     max-width: 900px;

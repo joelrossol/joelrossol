@@ -1,4 +1,4 @@
-//@codekit-prepend 'photoswipe.js'
+//at-symbol-codekit-prepend 'photoswipe.js'
 $(function() {
     $('.sidebar').hover(enter,leave);
         //asdf
@@ -10,9 +10,12 @@ $(function() {
         $(this).removeClass("expanded");
         //$(this).addClass("collapsed");
     }
-    lightGallery(document.getElementById('animated-thumbnials'), {
-    thumbnail:true,
-    animateThumb: false,
-    showThumbByDefault: false
-});
+    $(".close").click(function(){
+            $(".lightbox").addClass("hidden");
+    })
+//     lightGallery(document.getElementById('animated-thumbnials'), {
+//     thumbnail:true,
+//     animateThumb: false,
+//     showThumbByDefault: false
+// });
 });

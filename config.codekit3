@@ -7,7 +7,7 @@
 		"uuidString": "2F5F0C0C-432D-4B8E-B1C3-548468DBD641"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/css\/main.css": {
 		"aP": 1,
@@ -45,6 +45,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/sass\/lightbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/lightbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/sass\/main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -71,6 +84,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/sass\/photos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/photos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/sass\/resume.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -93,6 +119,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/sass\/variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -147,31 +186,101 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/portfolio\/antigua-arch.jpg": {
+		"ft": 16384,
+		"iS": 270669,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/antigua-arch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/antigua-door.jpg": {
+		"ft": 16384,
+		"iS": 310641,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/antigua-door.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/cinci-.jpg": {
+		"ft": 16384,
+		"iS": 913441,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/cinci-.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/cinci-door.jpg": {
+		"ft": 16384,
+		"iS": 311203,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/cinci-door.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/cinci-night.jpg": {
+		"ft": 16384,
+		"iS": 212609,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/cinci-night.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/dock.jpg": {
+		"ft": 16384,
+		"iS": 294106,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/dock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/glacier-mountains.jpg": {
+		"ft": 16384,
+		"iS": 286824,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/glacier-mountains.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/glacier-waterfall.jpg": {
+		"ft": 16384,
+		"iS": 410277,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/glacier-waterfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/guatemala-pano.jpg": {
+		"ft": 16384,
+		"iS": 114191,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/guatemala-pano.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/portfolio\/img1.jpg": {
 		"ft": 16384,
 		"iS": 1676396,
 		"oA": 0,
 		"oAP": "\/images\/portfolio\/img1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/portfolio\/img2.jpg": {
-		"ft": 16384,
-		"iS": 913441,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/portfolio\/img3.jpg": {
-		"ft": 16384,
-		"iS": 719539,
-		"oA": 0,
-		"oAP": "\/images\/portfolio\/img3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -187,7 +296,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/portfolio\/met.jpg": {
+		"ft": 16384,
+		"iS": 719539,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/met.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/portfolio\/sydney-pano.jpg": {
+		"ft": 16384,
+		"iS": 169594,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/sydney-pano.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -237,10 +367,10 @@
 		"uL": 1
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -799,6 +929,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -863,9 +997,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -895,6 +1029,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -904,14 +1042,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2015,7 +2145,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -2048,6 +2179,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2089,7 +2221,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2121,13 +2254,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2136,7 +2269,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2156,7 +2290,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2184,7 +2319,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
