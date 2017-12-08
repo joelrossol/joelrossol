@@ -612,7 +612,8 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-bottom: -14vw;
-  max-width: 280px; }
+  max-width: 280px;
+  display: none; }
   @media (min-width: 480px) {
     .headshot {
       width: 30%;
