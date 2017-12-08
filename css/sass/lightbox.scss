@@ -2,22 +2,35 @@
     display: block;
     width: 100%;
     height: 100%;
-    background-color: rgba(50,50,50,.5);
+    background-color: rgba(0,0,0,.7);
     z-index: 100;
     position: fixed;
     top: 0px;
     left: 0px;
     -webkit-backdrop-filter: blur(8px);
-
+    //padding: 2em;
+    box-sizing: border-box;
+    padding: 2em;
+    // .lightboxContainer{
+    //     width: 100%;
+    //     height: 100%;
+    //     //box-sizing: border-box;
+    // }
     img{
-        margin: auto;
-        max-width: 80%;
-        margin: 0;
-        position: absolute;
+        //box-sizing: border-box;
+        width: auto;
+        height: auto;
+        //margin: 2em;
+        padding: 0px;
+        max-height: 100%;
+        max-width: 100%;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 5px;
+        background-color: rgba(50,50,50,0);
+        box-shadow: #000000 0px 0px 40px;
     }
     .close {
       position: absolute;

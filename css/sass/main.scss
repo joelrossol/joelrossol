@@ -12,6 +12,15 @@
 .hidden{
     display: none;
 }
+.visible{
+    display: block;
+}
+.startScroll{
+    overflow: hidden;
+}
+.stopScroll{
+    overflow: hidden;
+}
 body {
     background-color: rgb(240,240,240);
     //background-color: $background;
