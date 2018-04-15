@@ -6,7 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Raleway:500,800|Ubuntu:400,800|Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&text=creative");
+@import url("https://fonts.googleapis.com/css?family=Cairo:400,700");
 html {
   line-height: 1.15;
   /* 1 */
@@ -420,8 +421,7 @@ template {
     color: #fff;
     margin: 0 auto 0.3rem;
     font-size: 2.2rem;
-    font-weight: 700;
-    font-family: Ubuntu; }
+    font-weight: 700; }
     @media (min-width: 480px) {
       .banner .title {
         font-size: 2.8rem; } }
@@ -445,6 +445,8 @@ template {
     @media (min-width: 992px) {
       .banner .subtitle {
         font-size: 1.8rem; } }
+  .banner .script {
+    font-family: "Inconsolata"; }
 
 .sidebar-nav ul {
   list-style: none;
@@ -498,14 +500,14 @@ template {
   color: #026c8e; }
 
 .job-title {
-  font-family: Quicksand, sans-serif;
+  font-family: "helvetica", sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
   margin: 0 0 1rem 0; }
 
 .time-period {
   color: #fff;
-  font-family: Quicksand, sans-serif;
+  font-family: "helvetica", sans-serif;
   font-size: 12px;
   background-color: #333;
   border-radius: 7px;
@@ -651,7 +653,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
-    font-family: Quicksand, sans-serif; }
+    font-family: "helvetica", sans-serif; }
     @media (min-width: 480px) {
       section h2 {
         font-size: 4vw;

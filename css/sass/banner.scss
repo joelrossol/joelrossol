@@ -29,7 +29,7 @@
         font-size: 2.2rem;
         font-weight: 700;
         //text-transform: uppercase;
-        font-family: Ubuntu;
+        //font-family: Ubuntu;
         @include breakpoint(xs) {
             font-size: 2.8rem;
         }
@@ -55,5 +55,8 @@
         @include breakpoint(md) {
             font-size: 1.8rem;
         }
+    }
+    .script{
+        font-family: $script;
     }
 }
