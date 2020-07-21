@@ -96,18 +96,19 @@ section {
     //padding: 3rem 6rem 3rem 6rem;
     //color: #000;
     h2 {
-        margin: 0 auto 2rem;
+        margin: 0 auto 3rem 0;
         text-align: center;
         text-transform: uppercase;
         font-weight: 800;
         font-family: $hfonts;
+        font-size: 8vw;
 
         @include breakpoint(xs){
-            font-size: 4vw;
-            margin: 0rem 0rem 1rem 0rem;
+            font-size: 6vw;
+            margin: 0rem 0rem 2rem 0rem;
         }
         @include breakpoint(sm){
-            font-size: 3.2vw;
+            font-size: 5vw;
             margin: 0rem 0rem 2rem 0rem;
         }
     }
@@ -115,18 +116,28 @@ section {
     p {
         margin: 0 0 1.2rem 0;
         //max-width: 900px;
+        font-size: 18px;
+        line-height: 24px;
         @include breakpoint(xs){
-            font-size: 2.6vw;
-            line-height: 4vw;
+            font-size: 18px;
+            line-height: 24px;
         }
         @include breakpoint(sm){
-            font-size: 16px;
+            font-size: 18px;
             line-height: 24px;
         }
         @include breakpoint(md){
-            font-size: 18px;
+            font-size: 20px;
             line-height: 26px;
         }
+    }
+    h4{
+        margin: 10px 0 10px 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    li{
+        line-height: 22px;
     }
 }
 .about{

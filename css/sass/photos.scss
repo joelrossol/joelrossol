@@ -1,18 +1,59 @@
-.column {
-    box-sizing: border-box;
-    float: left;
-    width: 50%;
-    padding: 10px;
+.photo-grid {
+    column-count: 1;
+    column-gap: 1em;
+    @include breakpoint(xs){
+        column-count: 2;
+        column-gap: 1em;
+    }
+    @include breakpoint(sm){
+        column-count: 2;
+        column-gap: 1em;
+    }
+    @include breakpoint(md){
+        column-count: 3;
+        column-gap: 1em;
+    }
+    @include breakpoint(lg){
+
+    }
+    figure{
+        margin: 0px;
+        display: inline-block;
+
+    }
+    figcaption{
+        margin: 0 0 1em 0;
+        background-color: #fff;
+        border-radius: 0 0 .3em .3em;
+        padding: .6em .5em .5em .5em;
+        position: relative;
+        z-index: -10;
+        top:-.4em;
+        border-bottom: 1px solid #d1d1d1;
+        color: #666666;
+        font-size: 3.5vw;
+
+        @include breakpoint(xs){
+        font-size: 2.3vw;
+    }
+    @include breakpoint(sm){
+       font-size: 1.5vw;
+    }
+    }
+    img {
+    //margin-top: 12px;
+    width: 100%;
+    border-radius: .3em .3em 0 0;
+    &:hover{
+        cursor: pointer;
+    }
+}
 }
 
-.column img {
-    margin-top: 12px;
-    width: 100%;
-}
 
 /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.photo-grid figure::after {
+     content: "";
+     display: table;
+     clear: both;
 }

@@ -409,7 +409,6 @@ template {
   @media (min-width: 992px) {
     .banner-container {
       height: 38vw; } }
-
 .banner {
   position: relative;
   top: 50%;
@@ -445,7 +444,6 @@ template {
     @media (min-width: 992px) {
       .banner .subtitle {
         font-size: 1.8rem; } }
-
 .sidebar-nav ul {
   list-style: none;
   margin: 0px;
@@ -456,7 +454,7 @@ template {
 .sidebar-nav li {
   padding: 16px 18px 18px 16px;
   margin-bottom: 2px;
-  border-left: 3px solid transparent;
+  border-left: 3px solid rgba(0, 0, 0, 0);
   color: #bbbbbb;
   overflow-x: hidden;
   white-space: nowrap;
@@ -501,7 +499,7 @@ template {
   font-family: Quicksand, sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
-  margin: 0 0 1rem 0; }
+  margin: 0 0 10px 0; }
 
 .time-period {
   color: #fff;
@@ -517,18 +515,49 @@ template {
 .tertiary {
   color: #000000; }
 
-.column {
-  box-sizing: border-box;
-  float: left;
-  width: 50%;
-  padding: 10px; }
-
-.column img {
-  margin-top: 12px;
-  width: 100%; }
+.photo-grid {
+  column-count: 1;
+  column-gap: 1em; }
+  @media (min-width: 480px) {
+    .photo-grid {
+      column-count: 2;
+      column-gap: 1em; } }
+  @media (min-width: 768px) {
+    .photo-grid {
+      column-count: 2;
+      column-gap: 1em; } }
+  @media (min-width: 992px) {
+    .photo-grid {
+      column-count: 3;
+      column-gap: 1em; } }
+  .photo-grid figure {
+    margin: 0px;
+    display: inline-block; }
+  .photo-grid figcaption {
+    margin: 0 0 1em 0;
+    background-color: #fff;
+    border-radius: 0 0 .3em .3em;
+    padding: .6em .5em .5em .5em;
+    position: relative;
+    z-index: -10;
+    top: -.4em;
+    border-bottom: 1px solid #d1d1d1;
+    color: #666666;
+    font-size: 3.5vw; }
+    @media (min-width: 480px) {
+      .photo-grid figcaption {
+        font-size: 2.3vw; } }
+    @media (min-width: 768px) {
+      .photo-grid figcaption {
+        font-size: 1.5vw; } }
+  .photo-grid img {
+    width: 100%;
+    border-radius: .3em .3em 0 0; }
+    .photo-grid img:hover {
+      cursor: pointer; }
 
 /* Clear floats after the columns */
-.row:after {
+.photo-grid figure::after {
   content: "";
   display: table;
   clear: both; }
@@ -622,7 +651,6 @@ a {
     .headshot {
       width: 22%;
       margin-bottom: -9vw; } }
-
 .sidebar {
   position: absolute;
   top: 0;
@@ -647,33 +675,42 @@ section {
     section {
       padding: 4rem 12rem 4rem 12rem; } }
   section h2 {
-    margin: 0 auto 2rem;
+    margin: 0 auto 3rem 0;
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
-    font-family: Quicksand, sans-serif; }
+    font-family: Quicksand, sans-serif;
+    font-size: 8vw; }
     @media (min-width: 480px) {
       section h2 {
-        font-size: 4vw;
-        margin: 0rem 0rem 1rem 0rem; } }
+        font-size: 6vw;
+        margin: 0rem 0rem 2rem 0rem; } }
     @media (min-width: 768px) {
       section h2 {
-        font-size: 3.2vw;
+        font-size: 5vw;
         margin: 0rem 0rem 2rem 0rem; } }
   section p {
-    margin: 0 0 1.2rem 0; }
+    margin: 0 0 1.2rem 0;
+    font-size: 18px;
+    line-height: 24px; }
     @media (min-width: 480px) {
       section p {
-        font-size: 2.6vw;
-        line-height: 4vw; } }
+        font-size: 18px;
+        line-height: 24px; } }
     @media (min-width: 768px) {
       section p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 24px; } }
     @media (min-width: 992px) {
       section p {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 26px; } }
+  section h4 {
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+    font-weight: bold; }
+  section li {
+    line-height: 22px; }
 
 .container {
   max-width: 900px;
@@ -699,7 +736,6 @@ section {
       flex-direction: row; }
       .flexbox .flex-item {
         width: 50%; } }
-
 .icon-flexbox {
   display: flex;
   flex-direction: row;
@@ -710,7 +746,6 @@ section {
   @media (min-width: 480px) {
     .icon-flexbox {
       width: 100%; } }
-
 .icons li {
   flex-grow: 1;
   list-style: none;
