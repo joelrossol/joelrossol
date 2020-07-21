@@ -1,12 +1,13 @@
 @import 'normalize';
 @import 'variables';
-@import url( 'https://fonts.googleapis.com/css?family=Raleway:500,800|Ubuntu:400,800|Quicksand');
+@import url( 'https://fonts.googleapis.com/css?family=Raleway:500,800|Ubuntu:400,800|Quicksand:400,700');
 @import 'breakpoints';
 @import 'banner';
 @import 'sidebar';
 @import 'resume';
 @import 'photos';
 @import 'lightbox';
+@import 'music';
 //@import 'photoswipe';
 
 .hidden{
@@ -99,7 +100,7 @@ section {
         margin: 0 auto 3rem 0;
         text-align: center;
         text-transform: uppercase;
-        font-weight: 800;
+        font-weight: 400;
         font-family: $hfonts;
         font-size: 8vw;
 
@@ -204,6 +205,44 @@ section {
         span {
             display: block;
             margin-top: 0.5rem;
+        }
+    }
+}
+
+.cta{
+    margin: 0 auto 1em auto;
+    display: block;
+    clear: both;
+    border-radius: 1em;
+    //background-color: rgba(255,255,255, .3);
+    padding: 10px 16px 10px 16px;
+    text-align: center;
+    
+    //background-color: #61bee9;
+    a{
+        text-decoration: none;
+    }
+    .cta-btn{
+        clear: both;
+        margin: 16px 0 0 0;
+        display: inline-block;
+        width: 40%;
+        font-weight: 800;
+        color: rgb(2, 108, 142);
+        max-width: 40vw;
+        margin: 0 auto 0 auto;
+        border: 2px solid rgb(2, 108, 142);
+        //background-color: #fff;
+        border-radius: .4em;
+        padding: 12px;
+
+        &:hover{
+            background-color: rgb(2, 108, 142);
+            color: #fff;
+        }
+        &::after{
+            font-family: FontAwesome;
+            content: "\f35d";
         }
     }
 }
