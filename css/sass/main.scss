@@ -1,6 +1,6 @@
 @import 'normalize';
 @import 'variables';
-@import url( 'https://fonts.googleapis.com/css?family=Raleway:500,800|Ubuntu:400,800|Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,800|Ubuntu:400,800|Quicksand:400,700');
 @import 'breakpoints';
 @import 'banner';
 @import 'sidebar';
@@ -226,23 +226,28 @@ section {
         clear: both;
         margin: 16px 0 0 0;
         display: inline-block;
-        width: 40%;
+        //width: 40%;
         font-weight: 800;
         color: rgb(2, 108, 142);
-        max-width: 40vw;
+        //max-width: 40vw;
         margin: 0 auto 0 auto;
-        border: 2px solid rgb(2, 108, 142);
+        border: 1.5px solid rgb(2, 108, 142);
         //background-color: #fff;
         border-radius: .4em;
-        padding: 12px;
+        padding: 12px 24px 12px 16px;
+
+        .btn-icon{
+            position: relative;
+            right: -10px;
+        }
 
         &:hover{
             background-color: rgb(2, 108, 142);
             color: #fff;
         }
-        &::after{
-            font-family: FontAwesome;
-            content: "\f35d";
-        }
+        // &::after{
+        //     font-family: "FontAwesome";
+        //     content: "\f35d";
+        // }
     }
 }

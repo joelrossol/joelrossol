@@ -623,10 +623,10 @@ template {
     color: #fff !important; }
   .music .cta .cta-btn {
     color: #fff;
-    border: 2px solid #fff !important; }
+    border-color: #fff !important; }
     .music .cta .cta-btn:hover {
       color: #004055;
-      border: 2px solid #fff;
+      border-color: #fff;
       background-color: #fff; }
 
 .hidden {
@@ -788,17 +788,15 @@ section {
     clear: both;
     margin: 16px 0 0 0;
     display: inline-block;
-    width: 40%;
     font-weight: 800;
     color: #026c8e;
-    max-width: 40vw;
     margin: 0 auto 0 auto;
-    border: 2px solid #026c8e;
+    border: 1.5px solid #026c8e;
     border-radius: .4em;
-    padding: 12px; }
+    padding: 12px 24px 12px 16px; }
+    .cta .cta-btn .btn-icon {
+      position: relative;
+      right: -10px; }
     .cta .cta-btn:hover {
       background-color: #026c8e;
       color: #fff; }
-    .cta .cta-btn::after {
-      font-family: FontAwesome;
-      content: "\f35d"; }
